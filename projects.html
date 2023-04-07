@@ -108,143 +108,181 @@
             </div>
         </header>
         <main>
-            <div class="index-page container u-flex-col u-ais" style="min-height: calc(100vh - 160px);">
-                <div class="general-block"><video src="assets/img/general-block.mp4" poster="assets/img/general-block.png" playsinline autoplay muted loop> </video>
-                    <h1>Инновационные<br>покрытия для<br>защиты металла</h1>
+            <div class="projects-page container u-flex-col u-ais" style="min-height: calc(100vh - 160px);">
+                <div class="projects-page__crumbs">
+                    <ul class="crumbs">
+                        <li class="crumbs__item"><a class="crumbs__link" href="/">Главная</a></li>
+                        <li class="crumbs__item"><a class="crumbs__link" href="projects.html">Проекты</a></li>
+                    </ul>
                 </div>
-                <div class="statistics-index" data-parallax="slideRight">
-                    <div class="statistics-block swiper" data-slider="10">
-                        <div class="statistics-block__inner swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="statistics-ui"><img class="statistics-ui__img" src="assets/img/svg/leaf1.svg">
-                                    <p class="statistics-ui__text">12<span class="statistics-ui__text--small">лет<br> на рынке</span></p>
+                <h2>Проекты</h2>
+                <div class="projects-page__controller">
+                    <div class="projects-page__controller-shows">
+                        <div class="selector-show"><button class="selector-show__item" data-shows="list">
+                                <div class="selector-show__item-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.794 1.33337H5.20732C2.78065 1.33337 1.33398 2.78004 1.33398 5.20671V10.7934C1.33398 13.22 2.78065 14.6667 5.20732 14.6667H10.794C13.2207 14.6667 14.6673 13.22 14.6673 10.7934V5.20671C14.6673 2.78004 13.2207 1.33337 10.794 1.33337ZM6.64732 9.93337L5.14732 11.4334C5.04732 11.5334 4.92065 11.58 4.79398 11.58C4.66732 11.58 4.53398 11.5334 4.44065 11.4334L3.94065 10.9334C3.74065 10.74 3.74065 10.42 3.94065 10.2267C4.13398 10.0334 4.44732 10.0334 4.64732 10.2267L4.79398 10.3734L5.94065 9.22671C6.13398 9.03337 6.44732 9.03337 6.64732 9.22671C6.84065 9.42004 6.84065 9.74004 6.64732 9.93337ZM6.64732 5.26671L5.14732 6.76671C5.04732 6.86671 4.92065 6.91337 4.79398 6.91337C4.66732 6.91337 4.53398 6.86671 4.44065 6.76671L3.94065 6.26671C3.74065 6.07337 3.74065 5.75337 3.94065 5.56004C4.13398 5.36671 4.44732 5.36671 4.64732 5.56004L4.79398 5.70671L5.94065 4.56004C6.13398 4.36671 6.44732 4.36671 6.64732 4.56004C6.84065 4.75337 6.84065 5.07337 6.64732 5.26671ZM11.7073 11.08H8.20732C7.93398 11.08 7.70732 10.8534 7.70732 10.58C7.70732 10.3067 7.93398 10.08 8.20732 10.08H11.7073C11.9873 10.08 12.2073 10.3067 12.2073 10.58C12.2073 10.8534 11.9873 11.08 11.7073 11.08ZM11.7073 6.41337H8.20732C7.93398 6.41337 7.70732 6.18671 7.70732 5.91337C7.70732 5.64004 7.93398 5.41337 8.20732 5.41337H11.7073C11.9873 5.41337 12.2073 5.64004 12.2073 5.91337C12.2073 6.18671 11.9873 6.41337 11.7073 6.41337Z" fill="#969FB7" />
+                                    </svg>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="statistics-ui"><img class="statistics-ui__img" src="assets/img/svg/leaf2.svg">
-                                    <p class="statistics-ui__text">17<span class="statistics-ui__text--small">видов<br> продукции</span></p>
+                                <p><span>Смотреть </span>Списком</p>
+                            </button><button class="selector-show__item selector-show__item--active" data-shows="map">
+                                <div class="selector-show__item-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.10026 4.99329C5.72693 4.99329 5.43359 5.29329 5.43359 5.65995C5.43359 6.02662 5.73359 6.32662 6.10026 6.32662C6.46693 6.32662 6.76693 6.02662 6.76693 5.65995C6.76693 5.29329 6.46693 4.99329 6.10026 4.99329Z" fill="#969FB7" />
+                                        <path d="M14.3073 3.36004C13.7473 2.06004 12.514 1.33337 10.794 1.33337H5.20732C3.06732 1.33337 1.33398 3.06671 1.33398 5.20671V10.7934C1.33398 12.5134 2.06065 13.7467 3.36065 14.3067C3.48732 14.36 3.63398 14.3267 3.72732 14.2334L14.234 3.72671C14.334 3.62671 14.3673 3.48004 14.3073 3.36004ZM7.02065 8.16004C6.76065 8.41337 6.42065 8.53337 6.08065 8.53337C5.74065 8.53337 5.40065 8.40671 5.14065 8.16004C4.46065 7.52004 3.71398 6.50004 4.00065 5.28671C4.25398 4.18671 5.22732 3.69337 6.08065 3.69337C6.93398 3.69337 7.90732 4.18671 8.16065 5.29337C8.44065 6.50004 7.69398 7.52004 7.02065 8.16004Z" fill="#969FB7" />
+                                        <path d="M12.9793 13.6867C13.1259 13.8334 13.1059 14.0734 12.9259 14.1734C12.3393 14.5001 11.6259 14.6667 10.7926 14.6667H5.20595C5.01261 14.6667 4.93261 14.4401 5.06595 14.3067L9.09261 10.2801C9.22595 10.1467 9.43261 10.1467 9.56595 10.2801L12.9793 13.6867Z" fill="#969FB7" />
+                                        <path d="M14.6672 5.20668V10.7933C14.6672 11.6267 14.5005 12.3467 14.1738 12.9267C14.0738 13.1067 13.8338 13.12 13.6872 12.98L10.2738 9.56668C10.1405 9.43335 10.1405 9.22668 10.2738 9.09335L14.3005 5.06668C14.4405 4.93335 14.6672 5.01335 14.6672 5.20668Z" fill="#969FB7" />
+                                    </svg>
                                 </div>
+                                <p><span>Смотреть </span>на карте</p>
+                            </button></div>
+                    </div>
+                    <div class="projects-page__controller-filters">
+                        <div class="selector-filter">
+                            <div class="selector-filter__item" data-filter="all">все</div>
+                            <div class="selector-filter__item" data-filter="transport">транспортная инфраструктура</div>
+                            <div class="selector-filter__item" data-filter="offshore">офшоры</div>
+                            <div class="selector-filter__item" data-filter="shipbuilding">Судостроение</div>
+                            <div class="selector-filter__item" data-filter="hydra">Гидротехника</div>
+                            <div class="selector-filter__item" data-filter="pgs">ПГС</div>
+                            <div class="selector-filter__item" data-filter="oil">Нефтегазовый комплекс</div>
+                            <div class="selector-filter__item" data-filter="chemistry">Химическая промышленность</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-page__body">
+                    <div class="projects-page__display" data-display="list">
+                        <div class="projects-page__list">
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="statistics-ui"><img class="statistics-ui__img" src="assets/img/svg/leaf3.svg">
-                                    <p class="statistics-ui__text">6<span class="statistics-ui__text--small">дистрибьютеров<br> по всей России</span></p>
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
+                            </div>
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
+                            </div>
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
+                            </div>
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
+                            </div>
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
+                            </div>
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
+                            </div>
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
+                            </div>
+                            <div class="projects-page__list-item">
+                                <div class="protected-object"><a class="protected-object__inner" href="#">
+                                        <div class="protected-object__img">
+                                            <picture>
+                                                <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
+                                                <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
+                                            </picture>
+                                        </div>
+                                        <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
+                                    </a></div>
+                            </div>
+                        </div><a class="btn projects-page__btn" href="#"><span class="btn__text"><span class="btn__text--up">Показать еще</span><span class="btn__text--down">Показать еще</span></span></a>
+                        <div class="projects-page__pagination">
+                            <div class="pagination-projects">
+                                <div class="pagination-projects__nav pagination-projects__nav--prev"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1336 18.8402C13.9457 18.6379 13.9574 18.3215 14.1598 18.1336L20.7652 12L14.1598 5.86639C13.9574 5.67849 13.9457 5.36213 14.1336 5.15977C14.3215 4.95742 14.6379 4.9457 14.8402 5.1336L21.8402 11.6336C21.9421 11.7282 22 11.861 22 12C22 12.139 21.9421 12.2718 21.8402 12.3664L14.8402 18.8664C14.6379 19.0543 14.3215 19.0426 14.1336 18.8402Z" fill="#1E1E1F" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
+                                    </svg>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="statistics-ui"><img class="statistics-ui__img" src="assets/img/svg/leaf4.svg">
-                                    <p class="statistics-ui__text">12K<span class="statistics-ui__text--small">объектов<br> защищено</span></p>
+                                <div class="pagination-projects__list">
+                                    <div class="pagination-projects__item">
+                                        <p>1</p>
+                                    </div>
+                                    <div class="pagination-projects__item">
+                                        <p>2</p>
+                                    </div>
+                                    <div class="pagination-projects__item">
+                                        <p>3</p>
+                                    </div>
+                                    <div class="pagination-projects__item">
+                                        <p>4</p>
+                                    </div>
+                                </div>
+                                <div class="pagination-projects__nav pagination-projects__nav--next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1336 18.8402C13.9457 18.6379 13.9574 18.3215 14.1598 18.1336L20.7652 12L14.1598 5.86639C13.9574 5.67849 13.9457 5.36213 14.1336 5.15977C14.3215 4.95742 14.6379 4.9457 14.8402 5.1336L21.8402 11.6336C21.9421 11.7282 22 11.861 22 12C22 12.139 21.9421 12.2718 21.8402 12.3664L14.8402 18.8664C14.6379 19.0543 14.3215 19.0426 14.1336 18.8402Z" fill="#1E1E1F" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
+                                    </svg>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="serieses-index"><a class="series-preview serieses-index__item" href="/" style="background-image:url(assets/img/series-preview/anticorrosion.png);" data-parallax="bg">
-                        <div class="series-preview__text">
-                            <p>Антикоррозионые материалы</p>
-                        </div><button class="btn series-preview__btn"><span class="btn__text"><span class="btn__text--up">серии</span><span class="btn__text--down">серии</span></span>
-                            <div class="btn__arrow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1336 18.8402C13.9457 18.6379 13.9574 18.3215 14.1598 18.1336L20.7652 12L14.1598 5.86639C13.9574 5.67849 13.9457 5.36213 14.1336 5.15977C14.3215 4.95742 14.6379 4.9457 14.8402 5.1336L21.8402 11.6336C21.9421 11.7282 22 11.861 22 12C22 12.139 21.9421 12.2718 21.8402 12.3664L14.8402 18.8664C14.6379 19.0543 14.3215 19.0426 14.1336 18.8402Z" fill="#1E1E1F" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
-                                </svg>
-                            </div>
-                        </button>
-                    </a><a class="series-preview serieses-index__item" href="/" style="background-image:url(assets/img/series-preview/fire-protective.png);" data-parallax="bg">
-                        <div class="series-preview__text">
-                            <p>Огнезащитные материалы</p>
-                        </div><button class="btn series-preview__btn"><span class="btn__text"><span class="btn__text--up">серии</span><span class="btn__text--down">серии</span></span>
-                            <div class="btn__arrow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1336 18.8402C13.9457 18.6379 13.9574 18.3215 14.1598 18.1336L20.7652 12L14.1598 5.86639C13.9574 5.67849 13.9457 5.36213 14.1336 5.15977C14.3215 4.95742 14.6379 4.9457 14.8402 5.1336L21.8402 11.6336C21.9421 11.7282 22 11.861 22 12C22 12.139 21.9421 12.2718 21.8402 12.3664L14.8402 18.8664C14.6379 19.0543 14.3215 19.0426 14.1336 18.8402Z" fill="#1E1E1F" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
-                                </svg>
-                            </div>
-                        </button>
-                    </a></div>
-                <div class="protected-index">
-                    <h2>Защищенные объекты</h2>
-                    <div class="protected-index__items">
-                        <div class="protected-objects swiper" data-slider="20">
-                            <div class="protected-objects__inner swiper-wrapper">
-                                <div class="swiper-slide protected-objects__item">
-                                    <div class="protected-object"><a class="protected-object__inner" href="/">
-                                            <div class="protected-object__img">
-                                                <picture>
-                                                    <source type="image/webp" srcset="assets/img/webp/protected-objects/o1.webp">
-                                                    <source type="image/jpeg" srcset="assets/img/protected-objects/o1.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o1.png" alt="">
-                                                </picture>
-                                            </div>
-                                            <p>Железнодорожный мост через реку Дон на участке Валуйки — Лиски, Юго-Восточной ж.д</p>
-                                        </a></div>
-                                </div>
-                                <div class="swiper-slide protected-objects__item">
-                                    <div class="protected-object"><a class="protected-object__inner" href="/">
-                                            <div class="protected-object__img">
-                                                <picture>
-                                                    <source type="image/webp" srcset="assets/img/webp/protected-objects/o2.webp">
-                                                    <source type="image/jpeg" srcset="assets/img/protected-objects/o2.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o2.png" alt="">
-                                                </picture>
-                                            </div>
-                                            <p>Мост через канал имени Москвы с эстакадами на подходах на ПК 258+09,59</p>
-                                        </a></div>
-                                </div>
-                                <div class="swiper-slide protected-objects__item">
-                                    <div class="protected-object"><a class="protected-object__inner" href="/">
-                                            <div class="protected-object__img">
-                                                <picture>
-                                                    <source type="image/webp" srcset="assets/img/webp/protected-objects/o3.webp">
-                                                    <source type="image/jpeg" srcset="assets/img/protected-objects/o3.png"><img class="protected-object__img-source" src="assets/img/protected-objects/o3.png" alt="">
-                                                </picture>
-                                            </div>
-                                            <p>Пешеходная эстакада с обзорной площадкой «Парящий мост»</p>
-                                        </a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><a class="btn protected-index__btn" href="/"><span class="btn__text"><span class="btn__text--up">все объекты</span><span class="btn__text--down">все объекты</span></span>
-                        <div class="btn__arrow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1336 18.8402C13.9457 18.6379 13.9574 18.3215 14.1598 18.1336L20.7652 12L14.1598 5.86639C13.9574 5.67849 13.9457 5.36213 14.1336 5.15977C14.3215 4.95742 14.6379 4.9457 14.8402 5.1336L21.8402 11.6336C21.9421 11.7282 22 11.861 22 12C22 12.139 21.9421 12.2718 21.8402 12.3664L14.8402 18.8664C14.6379 19.0543 14.3215 19.0426 14.1336 18.8402Z" fill="#1E1E1F" />
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
-                            </svg>
-                        </div>
-                    </a>
-                </div>
-                <div class="news-index">
-                    <h2>Последние новости</h2>
-                    <div class="news-index__body">
-                        <div class="last-news">
-                            <div class="last-news__item last-news__item--big"><a class="last-news-big last-news__item-inner" href="/">
-                                    <div class="last-news-big__info">
-                                        <p>12 апреля 2023</p>
-                                        <p>Автодорожная арка Крымского моста собрана</p>
-                                    </div>
-                                    <picture>
-                                        <source type="image/webp" srcset="assets/img/webp/last-news.webp">
-                                        <source type="image/jpeg" srcset="assets/img/last-news.png"><img class="last-news-big__img last-news__item-inner" src="assets/img/last-news.png" alt="">
-                                    </picture><button class="btn last-news-big__btn"><span class="btn__text"><span class="btn__text--up">читать</span><span class="btn__text--down">читать</span></span>
-                                        <div class="btn__arrow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1336 18.8402C13.9457 18.6379 13.9574 18.3215 14.1598 18.1336L20.7652 12L14.1598 5.86639C13.9574 5.67849 13.9457 5.36213 14.1336 5.15977C14.3215 4.95742 14.6379 4.9457 14.8402 5.1336L21.8402 11.6336C21.9421 11.7282 22 11.861 22 12C22 12.139 21.9421 12.2718 21.8402 12.3664L14.8402 18.8664C14.6379 19.0543 14.3215 19.0426 14.1336 18.8402Z" fill="#1E1E1F" />
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
-                                            </svg>
-                                        </div>
-                                    </button>
-                                </a></div>
-                            <div class="last-news__item last-news__item--small1" data-parallax="slideRight"><a class="news-item last-news__item-inner" href="/">
-                                    <p>12 апреля 2023</p>
-                                    <p>Евгений Куйвашев открыл новый участок кольцевой автодороги вокруг Екатеринбурга</p>
-                                    <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1336 18.8402C13.9457 18.6379 13.9574 18.3215 14.1598 18.1336L20.7652 12L14.1598 5.86639C13.9574 5.67849 13.9457 5.36213 14.1336 5.15977C14.3215 4.95742 14.6379 4.9457 14.8402 5.1336L21.8402 11.6336C21.9421 11.7282 22 11.861 22 12C22 12.139 21.9421 12.2718 21.8402 12.3664L14.8402 18.8664C14.6379 19.0543 14.3215 19.0426 14.1336 18.8402Z" fill="#1E1E1F" />
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
-                                        </svg>
-                                    </div>
-                                </a></div>
-                            <div class="last-news__item last-news__item--small2" data-parallax="slideRight"><a class="news-item last-news__item-inner" href="/">
-                                    <p>12 апреля 2023</p>
-                                    <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
-                                    <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1336 18.8402C13.9457 18.6379 13.9574 18.3215 14.1598 18.1336L20.7652 12L14.1598 5.86639C13.9574 5.67849 13.9457 5.36213 14.1336 5.15977C14.3215 4.95742 14.6379 4.9457 14.8402 5.1336L21.8402 11.6336C21.9421 11.7282 22 11.861 22 12C22 12.139 21.9421 12.2718 21.8402 12.3664L14.8402 18.8664C14.6379 19.0543 14.3215 19.0426 14.1336 18.8402Z" fill="#1E1E1F" />
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
-                                        </svg>
-                                    </div>
-                                </a></div>
+                    <div class="projects-page__display" data-display="map">
+                        <div class="projects-page__map">
+                            <div class="projects-map" id="map" style="width: 600px; height: 400px"></div>
                         </div>
                     </div>
                 </div>
