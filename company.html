@@ -82,6 +82,23 @@
                         </div>
                     </div>
                 </button></section>
+            <section class="modal modal--modal-trademark modal--aside" data-modal="modal-trademark"><button class="modal__overlay" type="button" data-modal-close="modal-trademark">
+                    <div class="modal__container" onclick="event.stopPropagation();">
+                        <div class="modal__content">
+                            <div class="modal-trademark">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/img/webp/reviews/r1.webp">
+                                    <source type="image/jpeg" srcset="assets/img/reviews/r1.png"><img class="modal-trademark__image" src="assets/img/reviews/r1.png" alt="">
+                                </picture><button class="modal-trademark__close-wrapper" data-modal-close="modal-trademark">
+                                    <div class="modal-trademark__close" data-harassment><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 6L18 18M18 6L6 18" stroke="#1E1E1F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </button></section>
         </div>
         <div class="modals js-modals"></div>
         <header class="header">
@@ -108,7 +125,7 @@
             </div>
         </header>
         <main>
-            <div class="company-page container u-flex-col u-ais" style="min-height: calc(100vh - 160px);">
+            <div class="company-page container u-flex-col u-ais">
                 <div class="company-page__crumbs">
                     <ul class="crumbs">
                         <li class="crumbs__item"><a class="crumbs__link" href="index.html">Главная</a></li>
@@ -116,7 +133,7 @@
                     </ul>
                 </div>
                 <div class="company-page__title">
-                    <h2>Велесгард</h2>
+                    <h1>Велесгард</h1>
                     <p>Разработка и производство<br>высокоэффективных защитных покрытий</p>
                 </div>
                 <div class="company-page__time-line">
@@ -150,7 +167,7 @@
                                 </svg>
                             </div>
                             <p>Велесгард — зарегистрированный в Российской Федерации товарный знак</p>
-                        </div><a class="btn register-company__btn" href="#"><span class="btn__text"><span class="btn__text--up">смотреть</span><span class="btn__text--down">смотреть</span></span></a>
+                        </div><button class="btn register-company__btn" data-modal-open="modal-trademark"><span class="btn__text"><span class="btn__text--up">смотреть</span><span class="btn__text--down">смотреть</span></span></button>
                     </div>
                 </div>
                 <div class="company-page__application">

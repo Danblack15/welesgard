@@ -82,6 +82,23 @@
                         </div>
                     </div>
                 </button></section>
+            <section class="modal modal--modal-trademark modal--aside" data-modal="modal-trademark"><button class="modal__overlay" type="button" data-modal-close="modal-trademark">
+                    <div class="modal__container" onclick="event.stopPropagation();">
+                        <div class="modal__content">
+                            <div class="modal-trademark">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/img/webp/reviews/r1.webp">
+                                    <source type="image/jpeg" srcset="assets/img/reviews/r1.png"><img class="modal-trademark__image" src="assets/img/reviews/r1.png" alt="">
+                                </picture><button class="modal-trademark__close-wrapper" data-modal-close="modal-trademark">
+                                    <div class="modal-trademark__close" data-harassment><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 6L18 18M18 6L6 18" stroke="#1E1E1F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </button></section>
         </div>
         <div class="modals js-modals"></div>
         <header class="header">
@@ -108,14 +125,14 @@
             </div>
         </header>
         <main>
-            <div class="news-page container u-flex-col u-ais" style="min-height: calc(100vh - 160px);">
+            <div class="news-page container u-flex-col u-ais">
                 <div class="news-page__crumbs">
                     <ul class="crumbs">
                         <li class="crumbs__item"><a class="crumbs__link" href="index.html">Главная</a></li>
                         <li class="crumbs__item"><a class="crumbs__link" href="news.html">Новости</a></li>
                     </ul>
                 </div>
-                <h2>Новости</h2>
+                <h1>Новости</h1>
                 <div class="news-page__last-news">
                     <div class="last-news">
                         <div class="last-news__item last-news__item--big"><a class="last-news-big last-news__item-inner" href="#">
@@ -156,11 +173,7 @@
                 </div>
                 <div class="news-page__grid">
                     <div class="news-grid">
-                        <div class="news-item-img news-grid__item news-grid__item-big" data-parallax="slideLeft">
-                            <picture>
-                                <source type="image/webp" srcset="assets/img/webp/big-slider/bs1.webp">
-                                <source type="image/jpeg" srcset="assets/img/big-slider/bs1.png"><img class="news-item-img__image" src="assets/img/big-slider/bs1.png" alt="">
-                            </picture><a class="news-item news-item-img__info" href="news-detail.html">
+                        <div class="news-item-img news-item-img--no-photo news-grid__item news-grid__item-big"><a class="news-item news-item-img__info" href="news-detail.html">
                                 <p>12 апреля 2023</p>
                                 <p>Установка Репинской развязки в подмосковных Химках</p>
                                 <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -168,8 +181,7 @@
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
                                     </svg>
                                 </div>
-                            </a>
-                        </div><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html" data-parallax="fadeIn">
+                            </a></div><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html">
                             <p>12 апреля 2023</p>
                             <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
                             <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -177,7 +189,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
                                 </svg>
                             </div>
-                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html" data-parallax="fadeIn">
+                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html">
                             <p>12 апреля 2023</p>
                             <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
                             <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -185,7 +197,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
                                 </svg>
                             </div>
-                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html" data-parallax="fadeIn">
+                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html">
                             <p>12 апреля 2023</p>
                             <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
                             <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -193,7 +205,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
                                 </svg>
                             </div>
-                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html" data-parallax="fadeIn">
+                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html">
                             <p>12 апреля 2023</p>
                             <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
                             <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -201,7 +213,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
                                 </svg>
                             </div>
-                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html" data-parallax="fadeIn">
+                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html">
                             <p>12 апреля 2023</p>
                             <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
                             <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -209,7 +221,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
                                 </svg>
                             </div>
-                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html" data-parallax="fadeIn">
+                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html">
                             <p>12 апреля 2023</p>
                             <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
                             <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -217,7 +229,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
                                 </svg>
                             </div>
-                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html" data-parallax="fadeIn">
+                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html">
                             <p>12 апреля 2023</p>
                             <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
                             <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -225,7 +237,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12C21 12.2761 20.7761 12.5 20.5 12.5L2.5 12.5C2.22386 12.5 2 12.2761 2 12C2 11.7239 2.22386 11.5 2.5 11.5L20.5 11.5C20.7761 11.5 21 11.7239 21 12Z" fill="#1E1E1F" />
                                 </svg>
                             </div>
-                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html" data-parallax="fadeIn">
+                        </a><a class="news-item news-grid__item news-grid__item-small" href="news-detail.html">
                             <p>12 апреля 2023</p>
                             <p>АО «Чукотэнерго» произвело ремонтные работы на Анадырском гидроузле</p>
                             <div class="news-item__arrow"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -234,7 +246,7 @@
                                 </svg>
                             </div>
                         </a>
-                        <div class="news-item-img news-grid__item news-grid__item-big" data-parallax="slideRight">
+                        <div class="news-item-img news-grid__item news-grid__item-big">
                             <picture>
                                 <source type="image/webp" srcset="assets/img/webp/big-slider/bs1.webp">
                                 <source type="image/jpeg" srcset="assets/img/big-slider/bs1.png"><img class="news-item-img__image" src="assets/img/big-slider/bs1.png" alt="">
